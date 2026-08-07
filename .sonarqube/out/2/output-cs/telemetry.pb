@@ -1,0 +1,1 @@
+PRCC:\Users\victo\Documents\practicas\MiAppNetCore\MiAppNetCore.csprojòCSharp14

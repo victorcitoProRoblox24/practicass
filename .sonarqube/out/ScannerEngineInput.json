@@ -1,0 +1,148 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.2.1"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1786090196000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "MiAppNetCore"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\victo\\Documents\\practicas"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\victo\\Documents\\practicas"
+    },
+    {
+      "key": "sonar.sources",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\sonarqube-infra\\docker-compose.yml,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\appsettings.Development.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\appsettings.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\appsettings.Development.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\appsettings.json,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\angular.json,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\package-lock.json,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\package.json,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\proxy.conf.json,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\tsconfig.app.json,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\tsconfig.json,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\tsconfig.spec.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\obj\\project.assets.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\obj\\TaskManagement.Api.csproj.nuget.dgspec.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\Properties\\launchSettings.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Application\\obj\\project.assets.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Application\\obj\\TaskManagement.Application.csproj.nuget.dgspec.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Domain\\obj\\project.assets.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Domain\\obj\\TaskManagement.Domain.csproj.nuget.dgspec.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Infrastructure\\obj\\project.assets.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Infrastructure\\obj\\TaskManagement.Infrastructure.csproj.nuget.dgspec.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\project.assets.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\VulnerableApp.csproj.nuget.dgspec.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Properties\\launchSettings.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\_ViewImports.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\_ViewStart.cshtml,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\index.html,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\main.ts,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\styles.scss,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Auth\\Dashboard.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Auth\\Login.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Comment\\Index.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Home\\Index.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Home\\Privacy.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Search\\Index.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Shared\\Error.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Shared\\_Layout.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Shared\\_Layout.cshtml.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\css\\site.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\js\\site.js,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\app.component.html,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\app.component.scss,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\app.component.ts,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\app.config.ts,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\app.routes.ts,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\bin\\Debug\\net10.0\\TaskManagement.Api.deps.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\bin\\Debug\\net10.0\\TaskManagement.Api.runtimeconfig.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\bin\\Debug\\net10.0\\TaskManagement.Api.staticwebassets.endpoints.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Api\\obj\\Debug\\net10.0\\staticwebassets.build.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Application\\bin\\Debug\\net10.0\\TaskManagement.Application.deps.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Domain\\bin\\Debug\\net10.0\\TaskManagement.Domain.deps.json,C:\\Users\\victo\\Documents\\practicas\\TaskManagement.Infrastructure\\bin\\Debug\\net10.0\\TaskManagement.Infrastructure.deps.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\VulnerableApp.deps.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\VulnerableApp.runtimeconfig.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\VulnerableApp.staticwebassets.endpoints.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\VulnerableApp.staticwebassets.runtime.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\rbcswa.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\rjimswa.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\staticwebassets.build.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\staticwebassets.development.json,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\models\\task.model.ts,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\services\\task.service.ts,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\BuildHost-net472\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\BuildHost-netcore\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.deps.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\bin\\Debug\\net10.0\\BuildHost-netcore\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\components\\kanban\\kanban.component.html,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\components\\kanban\\kanban.component.scss,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\components\\kanban\\kanban.component.ts,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\components\\task-dialog\\task-dialog.component.html,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\components\\task-dialog\\task-dialog.component.scss,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\components\\task-dialog\\task-dialog.component.ts,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\scopedcss\\bundle\\VulnerableApp.styles.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\scopedcss\\projectbundle\\VulnerableApp.bundle.scp.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js,C:\\Users\\victo\\Documents\\practicas\\VulnerableApp\\obj\\Debug\\net10.0\\scopedcss\\Views\\Shared\\_Layout.cshtml.rz.scp.css"
+    },
+    {
+      "key": "sonar.tests",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\app.component.spec.ts,C:\\Users\\victo\\Documents\\practicas\\KanbanApp\\TaskManagement-UI\\src\\app\\components\\kanban\\kanban.component.spec.ts"
+    },
+    {
+      "key": "sonar.modules",
+      "value": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77,3680B074-B0D6-C483-8C48-03FBF976E1C4"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.projectKey",
+      "value": "MiAppNetCore:EDE0D13F-7DEB-C899-B7F3-A102E40DBA77"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.projectName",
+      "value": "MiAppNetCore"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.projectBaseDir",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.working.directory",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.sources",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\Controllers\\WeatherController.cs,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\Program.cs,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\Services\\WeatherService.cs,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\MiAppNetCore.GlobalUsings.g.cs,\"C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs\",C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\MiAppNetCore.AssemblyInfo.cs,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\MiAppNetCore.MvcApplicationPartsAssemblyInfo.cs,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\appsettings.Development.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\appsettings.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\docs\\Informe_SDA_SonarQube.md,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\MiAppNetCore.http,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\Properties\\launchSettings.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\MiAppNetCore.csproj.nuget.dgspec.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\project.assets.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\bin\\Debug\\net10.0\\MiAppNetCore.deps.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\bin\\Debug\\net10.0\\MiAppNetCore.runtimeconfig.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\bin\\Debug\\net10.0\\MiAppNetCore.staticwebassets.endpoints.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore\\obj\\Debug\\net10.0\\staticwebassets.build.json"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\0,C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\2"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\0\\Issues.json,C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\2\\Issues.json"
+    },
+    {
+      "key": "EDE0D13F-7DEB-C899-B7F3-A102E40DBA77.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\0\\Telemetry.json,C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\2\\Telemetry.json"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.projectKey",
+      "value": "MiAppNetCore:3680B074-B0D6-C483-8C48-03FBF976E1C4"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.projectName",
+      "value": "MiAppNetCore.Tests"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.projectBaseDir",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.working.directory",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\.sonar\\mod1"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.tests",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\obj\\MiAppNetCore.Tests.csproj.nuget.dgspec.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\obj\\project.assets.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\bin\\Debug\\net10.0\\MiAppNetCore.deps.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\bin\\Debug\\net10.0\\MiAppNetCore.runtimeconfig.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\bin\\Debug\\net10.0\\MiAppNetCore.staticwebassets.endpoints.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\bin\\Debug\\net10.0\\MiAppNetCore.Tests.deps.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\bin\\Debug\\net10.0\\MiAppNetCore.Tests.runtimeconfig.json,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\WeatherServiceTests.cs,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\226746e0-d9d1-4807-9def-0144fc02f0f5\\coverage.opencover.xml,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\61d7e017-b620-4b50-a456-24300f9594f2\\coverage.opencover.xml,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\c517af96-9522-4777-862a-a124b8e2a0ef\\coverage.opencover.xml,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\e41e66de-40c8-4baf-bf4d-91598d77b91d\\coverage.opencover.xml,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\victo_LAPTOP-1M1UUQDQ_2026-08-06_23_50_44\\In\\LAPTOP-1M1UUQDQ\\coverage.opencover.xml,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\victo_LAPTOP-1M1UUQDQ_2026-08-06_23_50_44_net10.0.trx,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\victo_LAPTOP-1M1UUQDQ_2026-08-06_23_59_59\\In\\LAPTOP-1M1UUQDQ\\coverage.opencover.xml,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\victo_LAPTOP-1M1UUQDQ_2026-08-06_23_59_59_net10.0.trx,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\victo_LAPTOP-1M1UUQDQ_2026-08-07_00_03_57\\In\\LAPTOP-1M1UUQDQ\\coverage.opencover.xml,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\victo_LAPTOP-1M1UUQDQ_2026-08-07_00_03_57_net10.0.trx,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\victo_LAPTOP-1M1UUQDQ_2026-08-07_00_12_17\\In\\LAPTOP-1M1UUQDQ\\coverage.opencover.xml,C:\\Users\\victo\\Documents\\practicas\\MiAppNetCore.Tests\\TestResults\\victo_LAPTOP-1M1UUQDQ_2026-08-07_00_12_17_net10.0.trx"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\1,C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\3"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\1\\Issues.json,C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\3\\Issues.json"
+    },
+    {
+      "key": "3680B074-B0D6-C483-8C48-03FBF976E1C4.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\1\\Telemetry.json,C:\\Users\\victo\\Documents\\practicas\\.sonarqube\\out\\3\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.cs.opencover.reportsPaths",
+      "value": "**/coverage.opencover.xml"
+    },
+    {
+      "key": "sonar.cs.vstest.reportsPaths",
+      "value": "**/*.trx"
+    },
+    {
+      "key": "sonar.exclusions",
+      "value": "KanbanApp/**,VulnerableApp/**,TaskManagement.Api/**,TaskManagement.Application/**,TaskManagement.Domain/**,TaskManagement.Infrastructure/**,sonarqube-infra/**,**/coverage.opencover.xml"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

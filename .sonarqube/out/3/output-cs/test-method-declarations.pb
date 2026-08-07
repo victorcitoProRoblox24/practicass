@@ -1,0 +1,9 @@
+ð
+LC:\Users\victo\Documents\practicas\MiAppNetCore.Tests\WeatherServiceTests.csMiAppNetCore.Tests\
+&MiAppNetCore.Tests.WeatherServiceTests2IsValidTemperature_ReturnsTrue_WithinPhysicalRange^
+&MiAppNetCore.Tests.WeatherServiceTests4IsValidTemperature_ReturnsFalse_OutsidePhysicalRangeT
+&MiAppNetCore.Tests.WeatherServiceTests*GetWeatherDescription_ReturnsExpectedLabel_
+&MiAppNetCore.Tests.WeatherServiceTests5SearchCityWeather_ReturnsSeededCities_WhenNameMatchesT
+&MiAppNetCore.Tests.WeatherServiceTests*SearchCityWeather_ReturnsEmpty_WhenNoMatch_
+&MiAppNetCore.Tests.WeatherServiceTests5GetCityWeatherSummary_ReturnsMessage_WhenCityNotFound`
+&MiAppNetCore.Tests.WeatherServiceTests6GetCityWeatherSummary_ReturnsDescription_WhenCityFound

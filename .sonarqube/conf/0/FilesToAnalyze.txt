@@ -1,0 +1,12 @@
+﻿C:\Users\victo\Documents\practicas\MiAppNetCore\Controllers\WeatherController.cs
+C:\Users\victo\Documents\practicas\MiAppNetCore\Program.cs
+C:\Users\victo\Documents\practicas\MiAppNetCore\Services\WeatherService.cs
+C:\Users\victo\Documents\practicas\MiAppNetCore\obj\Debug\net10.0\MiAppNetCore.GlobalUsings.g.cs
+C:\Users\victo\Documents\practicas\MiAppNetCore\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+C:\Users\victo\Documents\practicas\MiAppNetCore\obj\Debug\net10.0\MiAppNetCore.AssemblyInfo.cs
+C:\Users\victo\Documents\practicas\MiAppNetCore\obj\Debug\net10.0\MiAppNetCore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\victo\Documents\practicas\MiAppNetCore\appsettings.Development.json
+C:\Users\victo\Documents\practicas\MiAppNetCore\appsettings.json
+C:\Users\victo\Documents\practicas\MiAppNetCore\docs\Informe_SDA_SonarQube.md
+C:\Users\victo\Documents\practicas\MiAppNetCore\MiAppNetCore.http
+C:\Users\victo\Documents\practicas\MiAppNetCore\Properties\launchSettings.json

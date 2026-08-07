@@ -1,0 +1,6 @@
+projectKey=MiAppNetCore
+serverUrl=http://localhost:9000
+serverVersion=26.6.0.123539
+dashboardUrl=http://localhost:9000/dashboard?id=MiAppNetCore
+ceTaskId=47cd2af4-1ca7-4bae-ac38-46dc0abc6ac9
+ceTaskUrl=http://localhost:9000/api/ce/task?id=47cd2af4-1ca7-4bae-ac38-46dc0abc6ac9

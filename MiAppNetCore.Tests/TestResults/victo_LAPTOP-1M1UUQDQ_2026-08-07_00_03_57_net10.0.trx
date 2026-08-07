@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e75ff7f5-c560-44fb-9129-3b8714c96175" name="victo@LAPTOP-1M1UUQDQ 2026-08-07 00:03:57" runUser="LAPTOP-1M1UUQDQ\victo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-08-07T00:03:57.4389415-06:00" queuing="2026-08-07T00:03:57.4389420-06:00" start="2026-08-07T00:03:49.4096285-06:00" finish="2026-08-07T00:03:58.2340514-06:00" />
+  <TestSettings name="default" id="dc3be6d4-9771-4915-9b5f-90f98a42f455">
+    <Deployment runDeploymentRoot="victo_LAPTOP-1M1UUQDQ_2026-08-07_00_03_57" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="94076255-464c-4567-80e7-9893aa8728ca" testId="bfeee4bf-e20a-1e25-3345-96d1ee7d1114" testName="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: -300)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0406746" startTime="2026-08-07T00:03:57.4072307-06:00" endTime="2026-08-07T00:03:57.4074254-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94076255-464c-4567-80e7-9893aa8728ca" />
+    <UnitTestResult executionId="7fc75770-60b6-4feb-918a-d40515f9bbfd" testId="e331a36c-9500-feeb-bfb5-bf93a13d163d" testName="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: -10, expected: &quot;Congelando&quot;)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0408926" startTime="2026-08-07T00:03:57.5744083-06:00" endTime="2026-08-07T00:03:57.6143805-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fc75770-60b6-4feb-918a-d40515f9bbfd" />
+    <UnitTestResult executionId="18ebc1f0-b646-4e34-8aa8-e5f2784a3bb6" testId="4fe41a5d-044c-6b32-49ec-10a80931f69e" testName="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: -273.14999999999998)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0323195" startTime="2026-08-07T00:03:57.4367127-06:00" endTime="2026-08-07T00:03:57.4683456-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18ebc1f0-b646-4e34-8aa8-e5f2784a3bb6" />
+    <UnitTestResult executionId="a99aa889-46d8-4fcf-9794-fbf3fe2be4ac" testId="d3ecade4-dfff-5fd5-9ab6-e47ea52495ee" testName="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: 20, expected: &quot;Templado&quot;)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0418973" startTime="2026-08-07T00:03:57.5331548-06:00" endTime="2026-08-07T00:03:57.5732061-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a99aa889-46d8-4fcf-9794-fbf3fe2be4ac" />
+    <UnitTestResult executionId="8adff471-d81e-49db-8bc0-d9a0672b2c39" testId="88f39e5c-2325-439c-9fd6-1afa4c7da3e6" testName="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: 30, expected: &quot;Calido&quot;)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0371991" startTime="2026-08-07T00:03:57.6601450-06:00" endTime="2026-08-07T00:03:57.6964078-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8adff471-d81e-49db-8bc0-d9a0672b2c39" />
+    <UnitTestResult executionId="4f5166ef-cf60-4293-9bf5-d6b8e345caad" testId="2361e58f-91ac-364e-54a3-a17c202de44a" testName="MiAppNetCore.Tests.WeatherServiceTests.SearchCityWeather_ReturnsSeededCities_WhenNameMatches" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0486993" startTime="2026-08-07T00:03:57.7871002-06:00" endTime="2026-08-07T00:03:57.8322465-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f5166ef-cf60-4293-9bf5-d6b8e345caad" />
+    <UnitTestResult executionId="94d83627-8484-42f6-8983-c0377c884ad9" testId="3094f008-0fad-9505-0369-8ef882dc1e9c" testName="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: 1000)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0302327" startTime="2026-08-07T00:03:57.5008796-06:00" endTime="2026-08-07T00:03:57.5299770-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94d83627-8484-42f6-8983-c0377c884ad9" />
+    <UnitTestResult executionId="7f02b2fc-0805-490d-a271-448e13ffe6c9" testId="aee3060a-745f-52b5-daf1-7f953e98a398" testName="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: 0)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0301906" startTime="2026-08-07T00:03:57.4099605-06:00" endTime="2026-08-07T00:03:57.4358770-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f02b2fc-0805-490d-a271-448e13ffe6c9" />
+    <UnitTestResult executionId="7d54f2db-6266-4cc8-9cc7-75c6314b74a7" testId="fbafddfe-2b5f-9b39-8702-0be88055176e" testName="MiAppNetCore.Tests.WeatherServiceTests.SearchCityWeather_ReturnsEmpty_WhenNoMatch" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0479046" startTime="2026-08-07T00:03:57.7368556-06:00" endTime="2026-08-07T00:03:57.7833206-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d54f2db-6266-4cc8-9cc7-75c6314b74a7" />
+    <UnitTestResult executionId="0e53a0cb-031b-4c3a-b8ae-fac233278b66" testId="25dc5936-6e48-6b18-745c-5815fa98105c" testName="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: 40, expected: &quot;Muy caluroso&quot;)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0383789" startTime="2026-08-07T00:03:57.6999639-06:00" endTime="2026-08-07T00:03:57.7348175-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e53a0cb-031b-4c3a-b8ae-fac233278b66" />
+    <UnitTestResult executionId="ec4d0300-e91a-4418-94b9-e37317298db4" testId="1bc0317d-2ee3-d22b-ac26-f2bef8bc694c" testName="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: 5000)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0310960" startTime="2026-08-07T00:03:57.4698494-06:00" endTime="2026-08-07T00:03:57.4996511-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec4d0300-e91a-4418-94b9-e37317298db4" />
+    <UnitTestResult executionId="1eabbf6b-11b3-4d0d-9c84-64813f1fcbed" testId="04a335b6-57c6-34c5-8a1d-3488937c5468" testName="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: 5, expected: &quot;Frio&quot;)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:00.0445728" startTime="2026-08-07T00:03:57.6153010-06:00" endTime="2026-08-07T00:03:57.6589401-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1eabbf6b-11b3-4d0d-9c84-64813f1fcbed" />
+    <UnitTestResult executionId="ae05d0ea-91db-4eb2-8bee-e50498ade29f" testId="07c3923c-be18-aa5e-e766-18c67e80ae36" testName="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: 25)" computerName="LAPTOP-1M1UUQDQ" duration="00:00:03.2219331" startTime="2026-08-07T00:03:54.1601553-06:00" endTime="2026-08-07T00:03:57.3649872-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae05d0ea-91db-4eb2-8bee-e50498ade29f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: 0)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="aee3060a-745f-52b5-daf1-7f953e98a398">
+      <Execution id="7f02b2fc-0805-490d-a271-448e13ffe6c9" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="IsValidTemperature_ReturnsTrue_ForAnyValue" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: -10, expected: &quot;Congelando&quot;)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="e331a36c-9500-feeb-bfb5-bf93a13d163d">
+      <Execution id="7fc75770-60b6-4feb-918a-d40515f9bbfd" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="GetWeatherDescription_ReturnsExpectedLabel" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: 1000)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="3094f008-0fad-9505-0369-8ef882dc1e9c">
+      <Execution id="94d83627-8484-42f6-8983-c0377c884ad9" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="IsValidTemperature_ReturnsTrue_ForAnyValue" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: 40, expected: &quot;Muy caluroso&quot;)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="25dc5936-6e48-6b18-745c-5815fa98105c">
+      <Execution id="0e53a0cb-031b-4c3a-b8ae-fac233278b66" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="GetWeatherDescription_ReturnsExpectedLabel" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: 5, expected: &quot;Frio&quot;)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="04a335b6-57c6-34c5-8a1d-3488937c5468">
+      <Execution id="1eabbf6b-11b3-4d0d-9c84-64813f1fcbed" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="GetWeatherDescription_ReturnsExpectedLabel" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: -300)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="bfeee4bf-e20a-1e25-3345-96d1ee7d1114">
+      <Execution id="94076255-464c-4567-80e7-9893aa8728ca" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="IsValidTemperature_ReturnsTrue_ForAnyValue" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: 5000)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="1bc0317d-2ee3-d22b-ac26-f2bef8bc694c">
+      <Execution id="ec4d0300-e91a-4418-94b9-e37317298db4" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="IsValidTemperature_ReturnsTrue_ForAnyValue" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.SearchCityWeather_ReturnsSeededCities_WhenNameMatches" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="2361e58f-91ac-364e-54a3-a17c202de44a">
+      <Execution id="4f5166ef-cf60-4293-9bf5-d6b8e345caad" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="SearchCityWeather_ReturnsSeededCities_WhenNameMatches" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: 30, expected: &quot;Calido&quot;)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="88f39e5c-2325-439c-9fd6-1afa4c7da3e6">
+      <Execution id="8adff471-d81e-49db-8bc0-d9a0672b2c39" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="GetWeatherDescription_ReturnsExpectedLabel" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: 25)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="07c3923c-be18-aa5e-e766-18c67e80ae36">
+      <Execution id="ae05d0ea-91db-4eb2-8bee-e50498ade29f" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="IsValidTemperature_ReturnsTrue_ForAnyValue" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.GetWeatherDescription_ReturnsExpectedLabel(temperature: 20, expected: &quot;Templado&quot;)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="d3ecade4-dfff-5fd5-9ab6-e47ea52495ee">
+      <Execution id="a99aa889-46d8-4fcf-9794-fbf3fe2be4ac" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="GetWeatherDescription_ReturnsExpectedLabel" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.IsValidTemperature_ReturnsTrue_ForAnyValue(temperature: -273.14999999999998)" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="4fe41a5d-044c-6b32-49ec-10a80931f69e">
+      <Execution id="18ebc1f0-b646-4e34-8aa8-e5f2784a3bb6" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="IsValidTemperature_ReturnsTrue_ForAnyValue" />
+    </UnitTest>
+    <UnitTest name="MiAppNetCore.Tests.WeatherServiceTests.SearchCityWeather_ReturnsEmpty_WhenNoMatch" storage="c:\users\victo\documents\practicas\miappnetcore.tests\bin\debug\net10.0\miappnetcore.tests.dll" id="fbafddfe-2b5f-9b39-8702-0be88055176e">
+      <Execution id="7d54f2db-6266-4cc8-9cc7-75c6314b74a7" />
+      <TestMethod codeBase="C:\Users\victo\Documents\practicas\MiAppNetCore.Tests\bin\Debug\net10.0\MiAppNetCore.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MiAppNetCore.Tests.WeatherServiceTests" name="SearchCityWeather_ReturnsEmpty_WhenNoMatch" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bfeee4bf-e20a-1e25-3345-96d1ee7d1114" executionId="94076255-464c-4567-80e7-9893aa8728ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e331a36c-9500-feeb-bfb5-bf93a13d163d" executionId="7fc75770-60b6-4feb-918a-d40515f9bbfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fe41a5d-044c-6b32-49ec-10a80931f69e" executionId="18ebc1f0-b646-4e34-8aa8-e5f2784a3bb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3ecade4-dfff-5fd5-9ab6-e47ea52495ee" executionId="a99aa889-46d8-4fcf-9794-fbf3fe2be4ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88f39e5c-2325-439c-9fd6-1afa4c7da3e6" executionId="8adff471-d81e-49db-8bc0-d9a0672b2c39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2361e58f-91ac-364e-54a3-a17c202de44a" executionId="4f5166ef-cf60-4293-9bf5-d6b8e345caad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3094f008-0fad-9505-0369-8ef882dc1e9c" executionId="94d83627-8484-42f6-8983-c0377c884ad9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aee3060a-745f-52b5-daf1-7f953e98a398" executionId="7f02b2fc-0805-490d-a271-448e13ffe6c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fbafddfe-2b5f-9b39-8702-0be88055176e" executionId="7d54f2db-6266-4cc8-9cc7-75c6314b74a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25dc5936-6e48-6b18-745c-5815fa98105c" executionId="0e53a0cb-031b-4c3a-b8ae-fac233278b66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bc0317d-2ee3-d22b-ac26-f2bef8bc694c" executionId="ec4d0300-e91a-4418-94b9-e37317298db4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04a335b6-57c6-34c5-8a1d-3488937c5468" executionId="1eabbf6b-11b3-4d0d-9c84-64813f1fcbed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07c3923c-be18-aa5e-e766-18c67e80ae36" executionId="ae05d0ea-91db-4eb2-8bee-e50498ade29f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.8)&#xD;
+[xUnit.net 00:00:00.77]   Discovering: MiAppNetCore.Tests&#xD;
+[xUnit.net 00:00:00.84]   Discovered:  MiAppNetCore.Tests&#xD;
+[xUnit.net 00:00:00.87]   Starting:    MiAppNetCore.Tests&#xD;
+[xUnit.net 00:00:04.60]   Finished:    MiAppNetCore.Tests&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="LAPTOP-1M1UUQDQ" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="LAPTOP-1M1UUQDQ\coverage.opencover.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

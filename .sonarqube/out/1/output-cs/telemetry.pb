@@ -1,0 +1,1 @@
+\ROC:\Users\victo\Documents\practicas\MiAppNetCore.Tests\MiAppNetCore.Tests.csprojòCSharp14

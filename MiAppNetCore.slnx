@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MiAppNetCore.Tests/MiAppNetCore.Tests.csproj" />
+  <Project Path="MiAppNetCore/MiAppNetCore.csproj" />
+</Solution>
