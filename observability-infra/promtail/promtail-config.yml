@@ -1,0 +1,43 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /var/lib/promtail/positions.yaml
+
+clients:
+  - url: http://loki:3100/loki/api/v1/push
+
+scrape_configs:
+  - job_name: vulnerableapp_logs
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp
+          app: VulnerableApp
+          environment: development
+          __path__: /var/log/vulnerableapp/*.txt
+
+    pipeline_stages:
+      # 1) Parsea la linea de texto generada por Serilog:
+      #    2026-08-07 04:07:14.846 -06:00 [INF] [cid:589679fd-...] Inicio Home.Index ...
+      - regex:
+          expression: '^(?P<timestamp>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3} [+-]\d{2}:\d{2}) \[(?P<level>\w+)\] \[cid:(?P<correlation_id>[a-f0-9-]*)\] (?P<message>.*)$'
+
+      # 2) Clasifica cada linea en una categoria (security | audit | vulnerableapp)
+      #    inspeccionando el contenido del mensaje, sin tocar el codigo de la app.
+      - template:
+          source: category
+          template: '{{ if regexMatch "(?i)(Auth\\.(Login|Logout|Register|Dashboard)|BCrypt|Credencial|Autenticaci)" .message }}security{{ else if regexMatch "(?i)(Comment\\.|Api\\.|GetUser|GetAllUsers|Executed DbCommand|INSERT|UPDATE|DELETE)" .message }}audit{{ else }}vulnerableapp{{ end }}'
+
+      # 3) Promueve los valores extraidos a labels de Loki para poder filtrar
+      #    con LogQL (ej. {job="vulnerableapp", category="audit"}).
+      - labels:
+          level:
+          category:
+
+      # 4) Usa el timestamp real del log en lugar de la hora de ingesta.
+      - timestamp:
+          source: timestamp
+          format: "2006-01-02 15:04:05.000 -07:00"
