@@ -57,3 +57,8 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:5277: address 
 2026-08-07 04:33:18.849 -06:00 [INF] [cid:] Application started. Press Ctrl+C to shut down.
 2026-08-07 04:33:18.850 -06:00 [INF] [cid:] Hosting environment: Development
 2026-08-07 04:33:18.851 -06:00 [INF] [cid:] Content root path: C:\Users\victo\Documents\practicas\VulnerableApp
+2026-08-07 16:24:32.638 -06:00 [INF] [cid:] Now listening on: http://localhost:5277
+2026-08-07 16:24:32.669 -06:00 [INF] [cid:] Application started. Press Ctrl+C to shut down.
+2026-08-07 16:24:32.672 -06:00 [INF] [cid:] Hosting environment: Development
+2026-08-07 16:24:32.673 -06:00 [INF] [cid:] Content root path: C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp
+2026-08-07 16:31:58.658 -06:00 [INF] [cid:] Application is shutting down...
