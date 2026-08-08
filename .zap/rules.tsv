@@ -1,0 +1,15 @@
+# .zap/rules.tsv
+# Formato: ID_REGLA	ACCION	COMENTARIO
+# ACCIONES: IGNORE (ignorar), WARN (solo advertir), FAIL (fallar el build)
+#
+# Los IDs de reglas ZAP se documentan en https://www.zaproxy.org/docs/alerts/
+# Estas entradas se ajustaron con base en los hallazgos reales del baseline
+# scan ejecutado contra VulnerableApp (ver README-DAST-ZAP.md, tabla de
+# hallazgos, para el detalle y la justificacion completa de cada una).
+
+10020	WARN	Missing Anti-clickjacking Header (X-Frame-Options) - corregido via middleware, se deja en WARN por si una respuesta puntual no la incluye
+10021	WARN	X-Content-Type-Options Header Missing - corregido via middleware
+10035	WARN	Strict-Transport-Security Header (HSTS) - la app solo corre en HTTP dentro del contenedor de pruebas; en produccion detras de HTTPS real se debe pasar a FAIL
+10038	WARN	Content Security Policy (CSP) Header Not Set - politica base aplicada; se deja en WARN porque una CSP muy estricta puede requerir ajustes finos por vista antes de poder exigirla en FAIL
+10063	IGNORE	Permissions Policy Header Not Set - no hay APIs de navegador sensibles (camara, geolocalizacion, etc.) en uso en esta app de practica
+90022	WARN	Application Error Disclosure - vigilar mientras ASPNETCORE_ENVIRONMENT=Development se use en pruebas DAST

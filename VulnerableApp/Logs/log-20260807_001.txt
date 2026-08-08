@@ -62,3 +62,170 @@ System.IO.IOException: Failed to bind to address http://127.0.0.1:5277: address 
 2026-08-07 16:24:32.672 -06:00 [INF] [cid:] Hosting environment: Development
 2026-08-07 16:24:32.673 -06:00 [INF] [cid:] Content root path: C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp
 2026-08-07 16:31:58.658 -06:00 [INF] [cid:] Application is shutting down...
+2026-08-07 16:49:07.156 -06:00 [WRN] [cid:11e30c37-619d-4e7d-a764-3c2de55add1a] Failed to determine the https port for redirect.
+2026-08-07 16:49:07.453 -06:00 [INF] [cid:11e30c37-619d-4e7d-a764-3c2de55add1a] Inicio Home.Index Usuario:anonimo IP:::1
+2026-08-07 16:49:07.455 -06:00 [INF] [cid:11e30c37-619d-4e7d-a764-3c2de55add1a] Fin Home.Index Usuario:anonimo DuracionMs:19
+2026-08-07 16:49:07.758 -06:00 [INF] [cid:11e30c37-619d-4e7d-a764-3c2de55add1a] HTTP GET / respondio 200 en 554.0281 ms
+2026-08-07 16:49:32.119 -06:00 [INF] [cid:f9c2492f-6944-4a1a-a8b3-8ec6b525987b] Inicio Home.Index Usuario:anonimo IP:::1
+2026-08-07 16:49:32.120 -06:00 [INF] [cid:f9c2492f-6944-4a1a-a8b3-8ec6b525987b] Fin Home.Index Usuario:anonimo DuracionMs:1
+2026-08-07 16:49:32.126 -06:00 [INF] [cid:f9c2492f-6944-4a1a-a8b3-8ec6b525987b] HTTP GET / respondio 200 en 7.5694 ms
+2026-08-07 16:49:32.497 -06:00 [INF] [cid:4e22bc3c-a35d-47d9-824b-58c63297907a] Inicio Search.Index Usuario:anonimo IP:::1 Parametros:{"search":"prueba"}
+2026-08-07 16:49:32.995 -06:00 [WRN] [cid:4e22bc3c-a35d-47d9-824b-58c63297907a] No store type was specified for the decimal property 'Balance' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-08-07 16:49:35.957 -06:00 [INF] [cid:4e22bc3c-a35d-47d9-824b-58c63297907a] Fin Search.Index Usuario:anonimo Resultados:0 DuracionMs:3461
+2026-08-07 16:49:35.983 -06:00 [INF] [cid:4e22bc3c-a35d-47d9-824b-58c63297907a] HTTP GET /Search respondio 200 en 3784.19 ms
+2026-08-07 16:49:36.151 -06:00 [INF] [cid:a097392e-2773-447c-8cc2-5ae42af9e3a5] Inicio Auth.Login (GET) IP:::1
+2026-08-07 16:49:36.152 -06:00 [INF] [cid:a097392e-2773-447c-8cc2-5ae42af9e3a5] Fin Auth.Login (GET) DuracionMs:0
+2026-08-07 16:49:36.240 -06:00 [INF] [cid:a097392e-2773-447c-8cc2-5ae42af9e3a5] HTTP GET /Auth/Login respondio 200 en 101.6951 ms
+2026-08-07 16:49:38.097 -06:00 [INF] [cid:f410c226-a613-4477-8e23-f7370e6cc7eb] Inicio Auth.Login (POST) Usuario:admin IP:::1
+2026-08-07 16:49:38.455 -06:00 [WRN] [cid:f410c226-a613-4477-8e23-f7370e6cc7eb] AuthEvent:LoginFailed Usuario:admin IP:::1 Motivo:CredencialesInvalidas
+2026-08-07 16:49:38.463 -06:00 [INF] [cid:f410c226-a613-4477-8e23-f7370e6cc7eb] HTTP POST /Auth/Login respondio 200 en 1013.1875 ms
+2026-08-07 16:49:39.599 -06:00 [INF] [cid:819b9c0b-d65e-4b5c-9fa4-1d166b191d98] Inicio Auth.Login (POST) Usuario:root IP:::1
+2026-08-07 16:49:39.676 -06:00 [WRN] [cid:819b9c0b-d65e-4b5c-9fa4-1d166b191d98] AuthEvent:LoginFailed Usuario:root IP:::1 Motivo:CredencialesInvalidas
+2026-08-07 16:49:39.677 -06:00 [INF] [cid:819b9c0b-d65e-4b5c-9fa4-1d166b191d98] HTTP POST /Auth/Login respondio 200 en 81.4328 ms
+2026-08-07 16:49:40.850 -06:00 [INF] [cid:4c0498e0-6e00-4a04-920e-9655ba47a6bb] Inicio Auth.Login (POST) Usuario:testuser IP:::1
+2026-08-07 16:49:40.860 -06:00 [WRN] [cid:4c0498e0-6e00-4a04-920e-9655ba47a6bb] AuthEvent:LoginFailed Usuario:testuser IP:::1 Motivo:CredencialesInvalidas
+2026-08-07 16:49:40.862 -06:00 [INF] [cid:4c0498e0-6e00-4a04-920e-9655ba47a6bb] HTTP POST /Auth/Login respondio 200 en 15.5087 ms
+2026-08-07 16:49:42.071 -06:00 [INF] [cid:2ff71bdf-48f2-4969-bc53-bc84dde6c426] Inicio Auth.Login (POST) Usuario:admin IP:::1
+2026-08-07 16:49:42.267 -06:00 [WRN] [cid:2ff71bdf-48f2-4969-bc53-bc84dde6c426] AuthEvent:LoginFailed Usuario:admin IP:::1 Motivo:CredencialesInvalidas
+2026-08-07 16:49:42.274 -06:00 [INF] [cid:2ff71bdf-48f2-4969-bc53-bc84dde6c426] HTTP POST /Auth/Login respondio 200 en 206.0044 ms
+2026-08-07 16:49:43.450 -06:00 [INF] [cid:6a4397de-25c8-4f15-84fa-16585052337f] Inicio Auth.Dashboard Usuario:anonimo IP:::1
+2026-08-07 16:49:43.450 -06:00 [WRN] [cid:6a4397de-25c8-4f15-84fa-16585052337f] AuthEvent:AccesoNoAutenticado a Dashboard IP:::1
+2026-08-07 16:49:43.453 -06:00 [INF] [cid:6a4397de-25c8-4f15-84fa-16585052337f] HTTP GET /Auth/Dashboard respondio 302 en 6.8489 ms
+2026-08-07 16:49:44.593 -06:00 [INF] [cid:f7fdfcaf-a45e-425c-a7a8-41d321b0d70e] Inicio Comment.Index Usuario:anonimo IP:::1
+2026-08-07 16:49:44.595 -06:00 [INF] [cid:f7fdfcaf-a45e-425c-a7a8-41d321b0d70e] Fin Comment.Index Usuario:anonimo TotalComentarios:0 DuracionMs:1
+2026-08-07 16:49:44.601 -06:00 [INF] [cid:f7fdfcaf-a45e-425c-a7a8-41d321b0d70e] HTTP GET /Comment respondio 200 en 11.1893 ms
+2026-08-07 16:49:44.726 -06:00 [INF] [cid:aef985d7-7b7f-4f20-a996-76cff50ecbcd] Inicio Comment.AddComment Usuario:anonimo IP:::1 Parametros:{"comment":"Este es un comentario de prueba para auditoria"}
+2026-08-07 16:49:44.727 -06:00 [INF] [cid:aef985d7-7b7f-4f20-a996-76cff50ecbcd] Comentario agregado por Usuario:anonimo
+2026-08-07 16:49:44.727 -06:00 [INF] [cid:aef985d7-7b7f-4f20-a996-76cff50ecbcd] Fin Comment.AddComment Usuario:anonimo DuracionMs:0
+2026-08-07 16:49:44.727 -06:00 [INF] [cid:aef985d7-7b7f-4f20-a996-76cff50ecbcd] HTTP POST /Comment/AddComment respondio 302 en 3.9587 ms
+2026-08-07 16:49:44.808 -06:00 [INF] [cid:9dc403f7-ee49-4572-8531-f24819a70e77] Inicio Comment.AddComment Usuario:anonimo IP:::1 Parametros:{"comment":null}
+2026-08-07 16:49:44.808 -06:00 [WRN] [cid:9dc403f7-ee49-4572-8531-f24819a70e77] Intento de agregar comentario vacio, Usuario:anonimo IP:::1
+2026-08-07 16:49:44.808 -06:00 [INF] [cid:9dc403f7-ee49-4572-8531-f24819a70e77] Fin Comment.AddComment Usuario:anonimo DuracionMs:0
+2026-08-07 16:49:44.808 -06:00 [INF] [cid:9dc403f7-ee49-4572-8531-f24819a70e77] HTTP POST /Comment/AddComment respondio 302 en 4.7849 ms
+2026-08-07 16:49:44.888 -06:00 [INF] [cid:f33f8325-98c2-4bec-9735-43061772b910] Inicio Api.GetAllUsers IP:::1
+2026-08-07 16:49:44.888 -06:00 [WRN] [cid:f33f8325-98c2-4bec-9735-43061772b910] AuthEvent:AccesoNoAutenticado a Api.GetAllUsers IP:::1
+2026-08-07 16:49:44.951 -06:00 [WRN] [cid:f33f8325-98c2-4bec-9735-43061772b910] HTTP GET /api/users respondio 401 en 70.7969 ms
+2026-08-07 16:49:45.089 -06:00 [INF] [cid:8ad8f884-e1b0-4e23-ae72-4efdada9488d] Inicio Api.GetUser IP:::1 Parametros:{"id":1}
+2026-08-07 16:49:45.089 -06:00 [WRN] [cid:8ad8f884-e1b0-4e23-ae72-4efdada9488d] AuthEvent:AccesoNoAutenticado a Api.GetUser IP:::1 Parametros:{"id":1}
+2026-08-07 16:49:45.095 -06:00 [WRN] [cid:8ad8f884-e1b0-4e23-ae72-4efdada9488d] HTTP GET /api/user/1 respondio 401 en 18.0911 ms
+2026-08-07 16:49:45.185 -06:00 [INF] [cid:f71f5999-94d0-444e-a680-3256ef7f62ed] Inicio Search.Index Usuario:anonimo IP:::1 Parametros:{"search":"__CONTROLLED_EXCEPTION_TEST__"}
+2026-08-07 16:49:45.185 -06:00 [ERR] [cid:f71f5999-94d0-444e-a680-3256ef7f62ed] Excepcion controlada capturada en Search.Index Usuario:anonimo IP:::1
+System.ArgumentException: Termino de busqueda de prueba invalido (excepcion controlada)
+   at VulnerableApp.Controllers.SearchController.Index(String search) in C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp\Controllers\SearchController.cs:line 44
+2026-08-07 16:49:45.242 -06:00 [INF] [cid:f71f5999-94d0-444e-a680-3256ef7f62ed] HTTP GET /Search respondio 200 en 61.6005 ms
+2026-08-07 16:49:46.398 -06:00 [INF] [cid:63d6d9c6-b0bc-4a2b-983d-c7c6803fda1f] AuthEvent:Logout Usuario:anonimo IP:::1
+2026-08-07 16:49:46.398 -06:00 [INF] [cid:63d6d9c6-b0bc-4a2b-983d-c7c6803fda1f] HTTP GET /Auth/Logout respondio 302 en 2.7016 ms
+2026-08-07 16:49:47.523 -06:00 [INF] [cid:5e67716b-fcea-4681-ae3c-38daf09c16fa] Inicio Auth.Login (POST) Usuario:__UNCONTROLLED_EXCEPTION_TEST__ IP:::1
+2026-08-07 16:49:47.525 -06:00 [ERR] [cid:5e67716b-fcea-4681-ae3c-38daf09c16fa] Unhandled exception. Metodo:POST Ruta:/Auth/Login CorrelationId:5e67716b-fcea-4681-ae3c-38daf09c16fa
+System.InvalidOperationException: Excepcion de prueba NO controlada (Auth.Login)
+   at VulnerableApp.Controllers.AuthController.Login(String username, String password) in C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp\Controllers\AuthController.cs:line 45
+   at lambda_method54(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp\Middleware\ExceptionHandlingMiddleware.cs:line 28
+2026-08-07 16:49:47.539 -06:00 [ERR] [cid:5e67716b-fcea-4681-ae3c-38daf09c16fa] HTTP POST /Auth/Login respondio 500 en 16.9432 ms
+2026-08-07 16:50:34.113 -06:00 [INF] [cid:e32a1160-21d0-4dbd-8d5a-8e0de91f27f6] Inicio Home.Index Usuario:anonimo IP:::1
+2026-08-07 16:50:34.114 -06:00 [INF] [cid:e32a1160-21d0-4dbd-8d5a-8e0de91f27f6] Fin Home.Index Usuario:anonimo DuracionMs:0
+2026-08-07 16:50:34.115 -06:00 [INF] [cid:e32a1160-21d0-4dbd-8d5a-8e0de91f27f6] HTTP GET / respondio 200 en 3.2755 ms
+2026-08-07 16:50:34.199 -06:00 [INF] [cid:2619836a-d11f-4653-8f55-17e41ebcc895] Inicio Search.Index Usuario:anonimo IP:::1 Parametros:{"search":"prueba"}
+2026-08-07 16:50:34.210 -06:00 [INF] [cid:2619836a-d11f-4653-8f55-17e41ebcc895] Fin Search.Index Usuario:anonimo Resultados:0 DuracionMs:10
+2026-08-07 16:50:34.213 -06:00 [INF] [cid:2619836a-d11f-4653-8f55-17e41ebcc895] HTTP GET /Search respondio 200 en 16.422 ms
+2026-08-07 16:50:35.350 -06:00 [INF] [cid:24648e86-fb50-449a-9fdf-f8a28c33fe67] Inicio Auth.Login (POST) Usuario:admin IP:::1
+2026-08-07 16:50:35.517 -06:00 [WRN] [cid:24648e86-fb50-449a-9fdf-f8a28c33fe67] AuthEvent:LoginFailed Usuario:admin IP:::1 Motivo:CredencialesInvalidas
+2026-08-07 16:50:35.519 -06:00 [INF] [cid:24648e86-fb50-449a-9fdf-f8a28c33fe67] HTTP POST /Auth/Login respondio 200 en 171.5581 ms
+2026-08-07 16:50:36.677 -06:00 [INF] [cid:27ff5cd1-22e6-40bf-870b-5b9d028788ad] Inicio Auth.Login (POST) Usuario:admin IP:::1
+2026-08-07 16:50:36.803 -06:00 [WRN] [cid:27ff5cd1-22e6-40bf-870b-5b9d028788ad] AuthEvent:LoginFailed Usuario:admin IP:::1 Motivo:CredencialesInvalidas
+2026-08-07 16:50:36.804 -06:00 [INF] [cid:27ff5cd1-22e6-40bf-870b-5b9d028788ad] HTTP POST /Auth/Login respondio 200 en 127.8555 ms
+2026-08-07 16:50:37.955 -06:00 [INF] [cid:f4a7c331-a4ec-4af2-b3a9-6676d27fbc92] Inicio Auth.Login (POST) Usuario:root IP:::1
+2026-08-07 16:50:37.963 -06:00 [WRN] [cid:f4a7c331-a4ec-4af2-b3a9-6676d27fbc92] AuthEvent:LoginFailed Usuario:root IP:::1 Motivo:CredencialesInvalidas
+2026-08-07 16:50:37.963 -06:00 [INF] [cid:f4a7c331-a4ec-4af2-b3a9-6676d27fbc92] HTTP POST /Auth/Login respondio 200 en 11.0321 ms
+2026-08-07 16:50:39.199 -06:00 [INF] [cid:8590fcf1-9054-4f5e-aadd-afc2e1be58a6] Inicio Auth.Login (POST) Usuario:admin IP:::1
+2026-08-07 16:50:39.327 -06:00 [INF] [cid:8590fcf1-9054-4f5e-aadd-afc2e1be58a6] AuthEvent:LoginSuccess Usuario:admin IP:::1 DuracionMs:127
+2026-08-07 16:50:39.329 -06:00 [INF] [cid:8590fcf1-9054-4f5e-aadd-afc2e1be58a6] HTTP POST /Auth/Login respondio 302 en 130.6559 ms
+2026-08-07 16:50:40.498 -06:00 [INF] [cid:cc678c70-2168-4f4c-9f05-fa8420204fdb] Inicio Auth.Dashboard Usuario:admin IP:::1
+2026-08-07 16:50:40.597 -06:00 [INF] [cid:cc678c70-2168-4f4c-9f05-fa8420204fdb] Fin Auth.Dashboard Usuario:admin DuracionMs:98
+2026-08-07 16:50:40.607 -06:00 [INF] [cid:cc678c70-2168-4f4c-9f05-fa8420204fdb] HTTP GET /Auth/Dashboard respondio 200 en 110.9325 ms
+2026-08-07 16:50:41.770 -06:00 [INF] [cid:4720e724-669a-4c9d-a838-de3fbb4d3982] Inicio Comment.Index Usuario:admin IP:::1
+2026-08-07 16:50:41.771 -06:00 [INF] [cid:4720e724-669a-4c9d-a838-de3fbb4d3982] Fin Comment.Index Usuario:admin TotalComentarios:1 DuracionMs:0
+2026-08-07 16:50:41.776 -06:00 [INF] [cid:4720e724-669a-4c9d-a838-de3fbb4d3982] HTTP GET /Comment respondio 200 en 6.1847 ms
+2026-08-07 16:50:41.878 -06:00 [INF] [cid:87a42ca6-bfd1-429e-acb8-66df6ba562a7] Inicio Comment.AddComment Usuario:admin IP:::1 Parametros:{"comment":"Comentario de prueba para auditoria"}
+2026-08-07 16:50:41.879 -06:00 [INF] [cid:87a42ca6-bfd1-429e-acb8-66df6ba562a7] Comentario agregado por Usuario:admin
+2026-08-07 16:50:41.879 -06:00 [INF] [cid:87a42ca6-bfd1-429e-acb8-66df6ba562a7] Fin Comment.AddComment Usuario:admin DuracionMs:0
+2026-08-07 16:50:41.879 -06:00 [INF] [cid:87a42ca6-bfd1-429e-acb8-66df6ba562a7] HTTP POST /Comment/AddComment respondio 302 en 1.5105 ms
+2026-08-07 16:50:41.962 -06:00 [INF] [cid:5bf1cb54-6faf-48e7-b262-5ab842b21bdf] Inicio Comment.AddComment Usuario:admin IP:::1 Parametros:{"comment":null}
+2026-08-07 16:50:41.962 -06:00 [WRN] [cid:5bf1cb54-6faf-48e7-b262-5ab842b21bdf] Intento de agregar comentario vacio, Usuario:admin IP:::1
+2026-08-07 16:50:41.962 -06:00 [INF] [cid:5bf1cb54-6faf-48e7-b262-5ab842b21bdf] Fin Comment.AddComment Usuario:admin DuracionMs:0
+2026-08-07 16:50:41.962 -06:00 [INF] [cid:5bf1cb54-6faf-48e7-b262-5ab842b21bdf] HTTP POST /Comment/AddComment respondio 302 en 0.8433 ms
+2026-08-07 16:50:42.052 -06:00 [INF] [cid:fec36440-8224-4960-8ba6-9e81a0f69ef3] Inicio Api.GetAllUsers IP:::1
+2026-08-07 16:50:42.078 -06:00 [INF] [cid:fec36440-8224-4960-8ba6-9e81a0f69ef3] Fin Api.GetAllUsers UsuarioId:1 Resultados:3 DuracionMs:26
+2026-08-07 16:50:42.082 -06:00 [INF] [cid:fec36440-8224-4960-8ba6-9e81a0f69ef3] HTTP GET /api/users respondio 200 en 30.7671 ms
+2026-08-07 16:50:42.160 -06:00 [INF] [cid:184f2f84-f78a-4b69-9120-f69219256082] Inicio Api.GetUser IP:::1 Parametros:{"id":1}
+2026-08-07 16:50:42.165 -06:00 [INF] [cid:184f2f84-f78a-4b69-9120-f69219256082] Fin Api.GetUser UsuarioId:1 DuracionMs:5
+2026-08-07 16:50:42.165 -06:00 [INF] [cid:184f2f84-f78a-4b69-9120-f69219256082] HTTP GET /api/user/1 respondio 200 en 6.7001 ms
+2026-08-07 16:50:42.234 -06:00 [INF] [cid:4808e56d-9525-420c-9a81-9907834268b7] Inicio Api.GetUser IP:::1 Parametros:{"id":2}
+2026-08-07 16:50:42.235 -06:00 [WRN] [cid:4808e56d-9525-420c-9a81-9907834268b7] AuthEvent:AccesoNoAutorizado UsuarioId:1 intento acceder a UsuarioId:2 IP:::1
+2026-08-07 16:50:42.237 -06:00 [WRN] [cid:4808e56d-9525-420c-9a81-9907834268b7] HTTP GET /api/user/2 respondio 403 en 4.6137 ms
+2026-08-07 16:50:42.322 -06:00 [INF] [cid:ac714b2a-a155-453a-b92b-9a939ff1f5c7] Inicio Search.Index Usuario:anonimo IP:::1 Parametros:{"search":"__CONTROLLED_EXCEPTION_TEST__"}
+2026-08-07 16:50:42.322 -06:00 [ERR] [cid:ac714b2a-a155-453a-b92b-9a939ff1f5c7] Excepcion controlada capturada en Search.Index Usuario:anonimo IP:::1
+System.ArgumentException: Termino de busqueda de prueba invalido (excepcion controlada)
+   at VulnerableApp.Controllers.SearchController.Index(String search) in C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp\Controllers\SearchController.cs:line 44
+2026-08-07 16:50:42.323 -06:00 [INF] [cid:ac714b2a-a155-453a-b92b-9a939ff1f5c7] HTTP GET /Search respondio 200 en 3.3253 ms
+2026-08-07 16:50:43.488 -06:00 [INF] [cid:74dbf0cb-c3db-4aa3-8bb8-f2823e47f931] AuthEvent:Logout Usuario:admin IP:::1
+2026-08-07 16:50:43.489 -06:00 [INF] [cid:74dbf0cb-c3db-4aa3-8bb8-f2823e47f931] HTTP GET /Auth/Logout respondio 302 en 2.1164 ms
+2026-08-07 16:50:44.676 -06:00 [INF] [cid:e458d343-4168-4baf-b81c-ded23bd3e5dd] Inicio Auth.Login (POST) Usuario:__UNCONTROLLED_EXCEPTION_TEST__ IP:::1
+2026-08-07 16:50:44.677 -06:00 [ERR] [cid:e458d343-4168-4baf-b81c-ded23bd3e5dd] Unhandled exception. Metodo:POST Ruta:/Auth/Login CorrelationId:e458d343-4168-4baf-b81c-ded23bd3e5dd
+System.InvalidOperationException: Excepcion de prueba NO controlada (Auth.Login)
+   at VulnerableApp.Controllers.AuthController.Login(String username, String password) in C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp\Controllers\AuthController.cs:line 45
+   at lambda_method54(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp\Middleware\ExceptionHandlingMiddleware.cs:line 28
+2026-08-07 16:50:44.678 -06:00 [ERR] [cid:e458d343-4168-4baf-b81c-ded23bd3e5dd] HTTP POST /Auth/Login respondio 500 en 3.3818 ms
+2026-08-07 17:15:54.957 -06:00 [INF] [cid:] Now listening on: http://localhost:5277
+2026-08-07 17:15:55.009 -06:00 [INF] [cid:] Application started. Press Ctrl+C to shut down.
+2026-08-07 17:15:55.011 -06:00 [INF] [cid:] Hosting environment: Development
+2026-08-07 17:15:55.012 -06:00 [INF] [cid:] Content root path: C:\Users\victo\Documents\Práctica Creación de Solución\VulnerableApp
+2026-08-07 17:18:50.632 -06:00 [WRN] [cid:fdc12c20-cc0d-4eba-b519-e6e9c8e53b45] Failed to determine the https port for redirect.
+2026-08-07 17:18:52.442 -06:00 [INF] [cid:fdc12c20-cc0d-4eba-b519-e6e9c8e53b45] Inicio Home.Index Usuario:anonimo IP:::1
+2026-08-07 17:18:52.470 -06:00 [INF] [cid:fdc12c20-cc0d-4eba-b519-e6e9c8e53b45] Fin Home.Index Usuario:anonimo DuracionMs:72
+2026-08-07 17:18:53.700 -06:00 [INF] [cid:fdc12c20-cc0d-4eba-b519-e6e9c8e53b45] HTTP GET / respondio 200 en 2913.2685 ms
+2026-08-07 17:18:54.002 -06:00 [INF] [cid:c640825b-975d-41f4-9127-454be43d928b] HTTP GET /VulnerableApp.styles.css respondio 200 en 167.4459 ms
+2026-08-07 17:18:54.002 -06:00 [INF] [cid:278699e6-5ec0-4bae-aa93-01045697f70c] HTTP GET /css/site.css respondio 200 en 169.1595 ms
+2026-08-07 17:18:54.161 -06:00 [INF] [cid:7e834c36-d1af-4009-a650-c038df272858] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css respondio 200 en 327.0248 ms
+2026-08-07 17:18:54.380 -06:00 [INF] [cid:63b96701-b536-46f0-b6ce-3750e5c95c22] HTTP GET /js/site.js respondio 200 en 122.3424 ms
+2026-08-07 17:18:54.384 -06:00 [INF] [cid:6a47feff-f2a6-4fbc-a9cb-cdb93e721ebc] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js respondio 200 en 239.0538 ms
+2026-08-07 17:18:54.512 -06:00 [INF] [cid:2b4d23e2-1748-4536-a46a-65c96f3494e1] HTTP GET /lib/jquery/dist/jquery.min.js respondio 200 en 212.6302 ms
+2026-08-07 17:18:55.373 -06:00 [INF] [cid:fbb6bef0-794c-41f9-9701-0793e1601116] HTTP GET /favicon.ico respondio 200 en 14.7982 ms

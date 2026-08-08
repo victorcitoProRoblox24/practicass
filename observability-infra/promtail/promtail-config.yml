@@ -9,6 +9,10 @@ clients:
   - url: http://loki:3100/loki/api/v1/push
 
 scrape_configs:
+
+  # -----------------------------------------------------------------------
+  # Job 1: archivo principal de VulnerableApp (Logs/log-*.txt).
+  # -----------------------------------------------------------------------
   - job_name: vulnerableapp_logs
     static_configs:
       - targets:
@@ -16,8 +20,8 @@ scrape_configs:
         labels:
           job: vulnerableapp
           app: VulnerableApp
-          environment: development
-          __path__: /var/log/vulnerableapp/*.txt
+          environment: dev
+          __path__: /var/log/vulnerableapp/log-*.txt
 
     pipeline_stages:
       # 1) Parsea la linea de texto generada por Serilog:
@@ -25,19 +29,57 @@ scrape_configs:
       - regex:
           expression: '^(?P<timestamp>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3} [+-]\d{2}:\d{2}) \[(?P<level>\w+)\] \[cid:(?P<correlation_id>[a-f0-9-]*)\] (?P<message>.*)$'
 
-      # 2) Clasifica cada linea en una categoria (security | audit | vulnerableapp)
+      # 2) Clasifica cada linea en "application" (VulnerableApp | Security | Audit)
       #    inspeccionando el contenido del mensaje, sin tocar el codigo de la app.
+      #    - Security: eventos de autenticacion (Auth.*, AuthEvent:*, verificacion BCrypt)
+      #    - Audit:    operaciones CRUD (Comment.*, Api.*, consultas a la base de datos)
+      #    - VulnerableApp: todo lo demas (Home, Search, ciclo de vida de la app)
       - template:
-          source: category
-          template: '{{ if regexMatch "(?i)(Auth\\.(Login|Logout|Register|Dashboard)|BCrypt|Credencial|Autenticaci)" .message }}security{{ else if regexMatch "(?i)(Comment\\.|Api\\.|GetUser|GetAllUsers|Executed DbCommand|INSERT|UPDATE|DELETE)" .message }}audit{{ else }}vulnerableapp{{ end }}'
+          source: application
+          template: '{{ if regexMatch "(?i)(Auth\\.(Login|Logout|Register|Dashboard)|AuthEvent:|BCrypt|Credencial|Autenticaci)" .message }}Security{{ else if regexMatch "(?i)(Comment\\.|Api\\.|GetUser|GetAllUsers|Executed DbCommand|INSERT|UPDATE|DELETE)" .message }}Audit{{ else }}VulnerableApp{{ end }}'
 
-      # 3) Promueve los valores extraidos a labels de Loki para poder filtrar
-      #    con LogQL (ej. {job="vulnerableapp", category="audit"}).
+      # 3) Clasifica cada linea en un "module" de negocio (Reto P4H-2).
+      #    Mapeo usado en esta practica (VulnerableApp no tiene modulo de
+      #    ordenes real, se usa el modulo de comentarios/API como equivalente
+      #    de "orders" para poder demostrar el filtrado por multiples valores):
+      #    - authentication: todo lo relacionado con Auth.* / login / logout
+      #    - orders:         CRUD de comentarios y llamadas a la API (equivalente a "orders")
+      #    - general:        el resto (Home, Search)
+      - template:
+          source: module
+          template: '{{ if regexMatch "(?i)(Auth\\.(Login|Logout|Register|Dashboard)|AuthEvent:|BCrypt|Credencial|Autenticaci)" .message }}authentication{{ else if regexMatch "(?i)(Comment\\.|Api\\.|GetUser|GetAllUsers|Executed DbCommand|INSERT|UPDATE|DELETE)" .message }}orders{{ else }}general{{ end }}'
+
+      # 4) Promueve a labels reales de Loki solo los campos de baja cardinalidad
+      #    (nunca 'usuario' ni 'correlation_id': con miles de usuarios/requests
+      #    distintos generarian miles de streams y degradarian a Loki).
       - labels:
           level:
-          category:
+          application:
+          module:
 
-      # 4) Usa el timestamp real del log en lugar de la hora de ingesta.
+      # 5) Usa el timestamp real del log en lugar de la hora de ingesta.
       - timestamp:
           source: timestamp
           format: "2006-01-02 15:04:05.000 -07:00"
+
+  # -----------------------------------------------------------------------
+  # Job 2 (Paso 3 - P4H-2): monitoreo de un SEGUNDO archivo de logs.
+  # VulnerableApp hoy solo escribe Logs/log-*.txt (un unico sink de archivo
+  # configurado en appsettings.json desde P3G-1). Este job queda preparado
+  # para leer Logs/security-*.txt si en el futuro se agrega un segundo sink
+  # de Serilog dedicado a seguridad; Promtail vuelve a escanear el glob
+  # periodicamente, por lo que NO hace falta reiniciar el contenedor cuando
+  # el archivo aparezca. Sirve para documentar el Paso 3 aunque hoy no
+  # reciba lineas.
+  # -----------------------------------------------------------------------
+  - job_name: vulnerableapp_security_logs
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp
+          app: VulnerableApp
+          environment: dev
+          application: Security
+          module: authentication
+          __path__: /var/log/vulnerableapp/security-*.txt
